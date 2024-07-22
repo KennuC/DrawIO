@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T14:07:00.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.7.2" etag="CiDI7g7qW182tWp7Uu6O" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T14:12:25.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="u8WyRiNFa1S2pU2ELRbC" version="24.7.2" type="github">
   <diagram name="Page-1" id="BvJP347GiiZfkOwUsqkh">
-    <mxGraphModel>
+    <mxGraphModel dx="1212" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iSefM9oxy1AssCUOsb5a-2" value="pfSense" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="390" y="190" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iSefM9oxy1AssCUOsb5a-3" value="Kali Linux" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kali-dragon-icon.svg/2048px-Kali-dragon-icon.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iSefM9oxy1AssCUOsb5a-4" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" vertex="1" parent="1">
+          <mxGeometry x="390" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iSefM9oxy1AssCUOsb5a-8" value="Ubuntu" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/operating-system-flat-1/30/ubuntu-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
