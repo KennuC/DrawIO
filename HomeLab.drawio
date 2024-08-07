@@ -1,71 +1,89 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="Machines" id="BvJP347GiiZfkOwUsqkh">
-    <mxGraphModel dx="2866" dy="1566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1988" dy="1305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5tb4uudJnrHotF7AxoZS-4" value="VLAN 30&amp;nbsp;&lt;div&gt;10.10.30.0/24&lt;div style=&quot;line-height: 120%;&quot;&gt;DHCP&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;10.10.30.50-100&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="780" width="280" height="230" as="geometry" />
+        <mxCell id="5tb4uudJnrHotF7AxoZS-4" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry y="510" width="280" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="5tb4uudJnrHotF7AxoZS-1" value="VLAN 1&amp;nbsp;&lt;div&gt;10.10.1.0/24&lt;div&gt;DHCP&lt;/div&gt;&lt;div&gt;10.10.1.50-100&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="350" width="280" height="230" as="geometry" />
+        <mxCell id="5tb4uudJnrHotF7AxoZS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="567" y="220" width="280" height="230" as="geometry" />
         </mxCell>
         <mxCell id="iSefM9oxy1AssCUOsb5a-2" value="pfSense&lt;div&gt;firewall&lt;/div&gt;&lt;div&gt;VLAN 1 - 10.10.1.254&lt;/div&gt;&lt;div&gt;VLAN 10 - 10.10.10.254&lt;br&gt;&lt;/div&gt;&lt;div&gt;VLAN 20 - 10.10.20.254&lt;br&gt;&lt;/div&gt;&lt;div&gt;VLAN 30 - 10.10.30.254&lt;br&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="720" y="330" width="100" height="70" as="geometry" />
+          <mxGeometry x="390" y="180" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iSefM9oxy1AssCUOsb5a-3" value="Kali Linux" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kali-dragon-icon.svg/2048px-Kali-dragon-icon.svg.png;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="360" width="100" height="100" as="geometry" />
+          <mxGeometry x="567" y="230" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="iSefM9oxy1AssCUOsb5a-4" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" parent="1" vertex="1">
           <mxGeometry x="390" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="iSefM9oxy1AssCUOsb5a-8" value="Ubuntu" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/operating-system-flat-1/30/ubuntu-128.png" parent="1" vertex="1">
-          <mxGeometry x="190" y="807" width="80" height="80" as="geometry" />
+          <mxGeometry x="10" y="520" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5tb4uudJnrHotF7AxoZS-2" value="VLAN 10&amp;nbsp;&lt;div&gt;10.10.10.0/24&lt;div&gt;DHCP&lt;/div&gt;&lt;div&gt;10.10.10.50-100&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="780" width="280" height="230" as="geometry" />
+        <mxCell id="5tb4uudJnrHotF7AxoZS-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="559" y="546" width="280" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="5tb4uudJnrHotF7AxoZS-3" value="VLAN 20&amp;nbsp;&lt;div&gt;10.10.20.0/24&lt;div&gt;DHCP&lt;/div&gt;&lt;div&gt;10.10.20.50-100&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="760" y="770" width="280" height="230" as="geometry" />
+        <mxCell id="5tb4uudJnrHotF7AxoZS-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="272.49" y="772" width="280" height="230" as="geometry" />
         </mxCell>
         <mxCell id="5tb4uudJnrHotF7AxoZS-5" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="1" vertex="1">
-          <mxGeometry x="210" y="943" width="50" height="41" as="geometry" />
+          <mxGeometry x="20" y="630" width="50" height="41" as="geometry" />
         </mxCell>
         <mxCell id="5tb4uudJnrHotF7AxoZS-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://marketplace-assets.digitalocean.com/logos/portaineriolimit-portainercommuni.svg;" parent="1" vertex="1">
-          <mxGeometry x="270" y="927" width="73" height="73" as="geometry" />
+          <mxGeometry x="8.5" y="671" width="73" height="73" as="geometry" />
         </mxCell>
         <mxCell id="5tb4uudJnrHotF7AxoZS-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://letslearnabout.net/wp-content/uploads/2023/07/ad5a831987ef92f60ea5ecd4b29523c3.png;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="930" width="77" height="77" as="geometry" />
+          <mxGeometry x="573.97" y="616" width="109" height="109" as="geometry" />
         </mxCell>
         <mxCell id="5tb4uudJnrHotF7AxoZS-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1104/1*l0dZW0__5ouH_m-6pc0zKg.jpeg;" parent="1" vertex="1">
-          <mxGeometry x="190" y="1040" width="215.72" height="68" as="geometry" />
+          <mxGeometry x="180" y="546" width="88.83" height="28" as="geometry" />
         </mxCell>
         <mxCell id="5tb4uudJnrHotF7AxoZS-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://appstore.edgenexus.io/wp-content/uploads/2018/03/dvwa-logo-500x500.png;" parent="1" vertex="1">
-          <mxGeometry x="1330" y="930" width="80" height="80" as="geometry" />
+          <mxGeometry x="700" y="595.1999999999999" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="5tb4uudJnrHotF7AxoZS-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://raw.githubusercontent.com/WebGoat/WebGoat/main/src/main/resources/lessons/challenges/images/webgoat2.png;" parent="1" vertex="1">
-          <mxGeometry x="220" y="1140" width="239" height="77" as="geometry" />
+          <mxGeometry x="180" y="610.69" width="88.83" height="28.62" as="geometry" />
         </mxCell>
-        <mxCell id="8MhL2vGHyXz3FZBSNUEo-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1400/1*avSrkx78FxkvQ_EydrSFLA.png;" vertex="1" parent="1">
-          <mxGeometry x="1275" y="510" width="240" height="65" as="geometry" />
+        <mxCell id="8MhL2vGHyXz3FZBSNUEo-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1400/1*avSrkx78FxkvQ_EydrSFLA.png;" parent="1" vertex="1">
+          <mxGeometry x="710.3600000000001" y="320" width="129.23" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="8MhL2vGHyXz3FZBSNUEo-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/c/c3/Wazuh-Logo-2022.png;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="590" width="274.97" height="78" as="geometry" />
+        <mxCell id="8MhL2vGHyXz3FZBSNUEo-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/c/c3/Wazuh-Logo-2022.png;" parent="1" vertex="1">
+          <mxGeometry x="708" y="240" width="133.96" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="8MhL2vGHyXz3FZBSNUEo-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://appstore.edgenexus.io/wp-content/uploads/2018/03/dvwa-logo-500x500.png;" vertex="1" parent="1">
-          <mxGeometry x="410" y="1034" width="80" height="80" as="geometry" />
+        <mxCell id="8MhL2vGHyXz3FZBSNUEo-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://securityonionsolutions.com/logo/logo-so-light.png;" parent="1" vertex="1">
+          <mxGeometry x="698" y="223" width="152" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="8MhL2vGHyXz3FZBSNUEo-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://securityonionsolutions.com/logo/logo-so-light.png;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="110" width="232" height="232" as="geometry" />
+        <mxCell id="8MhL2vGHyXz3FZBSNUEo-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://appstore.edgenexus.io/wp-content/uploads/2018/03/dvwa-logo-500x500.png;" parent="1" vertex="1">
+          <mxGeometry x="180" y="655.75" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8MhL2vGHyXz3FZBSNUEo-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://wazuh.com/uploads/2022/04/caldera-post-icon.png;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="239" width="111" height="111" as="geometry" />
+        <mxCell id="8MhL2vGHyXz3FZBSNUEo-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://wazuh.com/uploads/2022/04/caldera-post-icon.png;" parent="1" vertex="1">
+          <mxGeometry x="757" y="360" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8MhL2vGHyXz3FZBSNUEo-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seekvectors.com/files/download/Microsoft%20Active%20Directory-01.png;" vertex="1" parent="1">
-          <mxGeometry x="790" y="1007" width="140" height="140" as="geometry" />
+        <mxCell id="8MhL2vGHyXz3FZBSNUEo-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seekvectors.com/files/download/Microsoft%20Active%20Directory-01.png;" parent="1" vertex="1">
+          <mxGeometry x="240" y="671" width="345" height="345" as="geometry" />
         </mxCell>
-        <mxCell id="8MhL2vGHyXz3FZBSNUEo-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Windows_10_Logo.svg/2560px-Windows_10_Logo.svg.png;" vertex="1" parent="1">
-          <mxGeometry x="773.51" y="1114" width="172.97" height="32" as="geometry" />
+        <mxCell id="8MhL2vGHyXz3FZBSNUEo-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Windows_10_Logo.svg/2560px-Windows_10_Logo.svg.png;" parent="1" vertex="1">
+          <mxGeometry x="309.25" y="943" width="206.49" height="38.2" as="geometry" />
+        </mxCell>
+        <mxCell id="tstO8E4ToWnD4s0VQoLR-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;VLAN 10&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; line-height: 14.4px;&quot;&gt;&lt;b&gt;10.10.10.0/24&lt;/b&gt;&lt;div style=&quot;forced-color-adjust: none; line-height: 14.4px;&quot;&gt;&lt;b&gt;DHCP&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; line-height: 14.4px;&quot;&gt;&lt;b&gt;10.10.10.50-100&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="644" y="776" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tstO8E4ToWnD4s0VQoLR-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;VLAN 1&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;b&gt;10.10.1.0/24&lt;/b&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;b&gt;DHCP&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;b&gt;10.10.1.50-100&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="652" y="450" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tstO8E4ToWnD4s0VQoLR-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;VLAN 20&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;b&gt;10.10.20.0/24&lt;/b&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;b&gt;DHCP&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;b&gt;10.10.20.50-100&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="352.49" y="1002" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tstO8E4ToWnD4s0VQoLR-5" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;VLAN 30&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;b&gt;10.10.30.0/24&lt;/b&gt;&lt;div style=&quot;forced-color-adjust: none; line-height: 14.4px;&quot;&gt;&lt;b&gt;DHCP&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; line-height: 14.4px;&quot;&gt;&lt;b&gt;10.10.30.50-100&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tstO8E4ToWnD4s0VQoLR-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.strangebee.com/thehive/images/general/thehive.svg;" vertex="1" parent="1">
+          <mxGeometry x="568.8699999999999" y="375" width="141.49" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tstO8E4ToWnD4s0VQoLR-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://github.com/TheHive-Project/Cortex/raw/master/images/cortex-logo.png;" vertex="1" parent="1">
+          <mxGeometry x="572.4099999999999" y="416.68999999999994" width="128.13" height="33.31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
